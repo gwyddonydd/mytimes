@@ -1,65 +1,108 @@
-header{
-	display: flex;
+header {
+  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   width: 100%;
   justify-content: space-between;
-	border-bottom: 1px solid black;
-	height: 80px;
+  border-bottom: 1px solid black;
+  height: 80px;
 }
 
-.logo{
-	color:mediumaquamarine;
-	display: flex;
-	align-items: center;
-	padding-left: 30px;
-	flex-grow: 1;
+.logo {
+  color: mediumaquamarine;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
 }
 
-.logo img{
-	  width: 70px;
-    height: 60px;
-    margin-right: 12px;
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
 }
 
-header nav{
-	display: block;
-	padding-right: 40px;		
+header nav {
+  display: block;
+  padding-right: 40px;
 }
 
-nav span{
-	display: inline-block;
+nav span {
+  display: inline-block;
   padding: 20px 10px;
 }
 
-nav a{
-	color: black;
+nav a {
+  color: black;
   text-decoration: underline;
 }
 
-.container{
-	display: flex;
-    width: 1232px;
-    margin: 0 auto 78px auto;
-    padding-top: 116px;
+.container {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
 }
 
-.column{
-	display: flex;
+.column {
+  display: flex;
   flex-direction: column;
+	margin-right: 32px;
 }
 
-.column.large{
-	width: 630px;
+.column.large {
+  width: 630px;
 }
 
-.column.medium{
-	width: 300px;
+.column.medium {
+  width: 300px;
 }
 
-.column.small{
+.column.small {
   width: 240px;
 }
 
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
 
+.img{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.img.main {
+  height: 300px;
+  background-image: url("../images/mainstory.png");
+}
+
+.img.main>span {
+  font-size: 40px;
+}
+
+.img>span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.img.earth {
+  background-image: url("../images/fallseason.png");
+  height: 300px;
+}
+
+.img.camera{
+	background-image: url("../images/hipster.png");
+	height: 300px;
+}
+
+
+.img.cats{
+	background-image: url("../images/catceo.png");
+	height: 300px;
+}
