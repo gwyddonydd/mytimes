@@ -47,12 +47,23 @@ nav a {
 
 .column {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
 	margin-right: 32px;
 }
 
 .column.large {
   width: 630px;
+}
+
+.sub-large{
+  display: flex;
+  flex-flow: column;
+  width: 300px;
+}
+
+.sub-container{
+  display: inline-flex;
+
 }
 
 .column.medium {
@@ -73,11 +84,14 @@ p {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+  text-align: center;
 }
 
 .img.main {
   height: 300px;
   background-image: url("../images/mainstory.png");
+  text-align: left;
+  justify-content: flex-start;
 }
 
 .img.main>span {
