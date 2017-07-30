@@ -53,6 +53,7 @@ nav a {
 
 .container {
   display: flex;
+  align-content: space-between;
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 100px;
@@ -61,11 +62,14 @@ nav a {
 .column {
   display: flex;
   flex-flow: column wrap;
+  align-items: baseline;
   margin-right: 32px;
+  padding: 0;
 }
 
 .column.large {
   width: 630px;
+
 }
 
 .sub-large {
@@ -104,6 +108,7 @@ p {
   background-image: url("../images/mainstory.png");
   text-align: left;
   justify-content: center;
+  width: inherit%;
 }
 
 .img.main>span {
